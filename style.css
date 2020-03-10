@@ -49,14 +49,14 @@ h5{
 }
 .container{
     width: 85%;
-    background-color: blueviolet;
+    background-color:rgba(241, 236, 236);
     display: flex;
 
 }
 .container .top{
     width: 100%;
     height: 20%;
-    background-color: brown;
+    background-color: rgba(241, 236, 236);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,17 +65,86 @@ h5{
 }
 .container .top .users{
     width: 23%;
-    height: 80%;
-    background-color: burlywood;
+    height: 70%;
+    background-color: white;
     border-radius: 10px;
     display: flex;
     align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.container .top .users .right{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container .top .users .right-top{
+    width: 100%;
+    height: 60%;
+    direction: rtl;
+}
+.container .top .users .right-down{
+    width: 100%;
+    height: 40%;
+    direction: ltr;
+    text-indent: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+p{
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 0.8;
+    text-indent: 10px;
+}
+.container .top .users .left1{
+    width: 25%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(120, 100, 228);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .top .users .left2{
+    width: 25%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(250, 186, 50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .top .users .left3{
+    width: 25%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(241, 72, 115);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .top .users .left4{
+    width: 25%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(53, 175, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .container .top .tickets{
     width: 23%;
     height: 80%;
-    background-color: royalblue;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(240, 72, 115);
     display: flex;
     align-items: center;
 }
