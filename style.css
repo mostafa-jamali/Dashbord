@@ -1,0 +1,97 @@
+@font-face {
+    font-family: shabnam;
+    src: url(Assets/Fonts/Shabnam-Light.ttf);
+ 
+  }
+  
+  * {
+    font-family: shabnam;
+  }
+  body{
+      margin: 0px;
+      display: flex;
+      justify-content: center;
+      flex-direction: row-reverse;
+  }
+
+.right-side{
+    width: 15%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+}
+
+.right-side .user-info{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+.right-side .image{
+    border-radius: 25px;
+}
+h2{
+    height: 10px;
+}
+h4{
+    margin-top: 0px;
+    height: 8px;
+}
+h5{
+    font-size: smaller;
+}
+.right-side .message{
+    width: 50%;
+    height: 6%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 85%;
+    background-color: blueviolet;
+    display: flex;
+
+}
+.container .top{
+    width: 100%;
+    height: 20%;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.container .top .users{
+    width: 23%;
+    height: 80%;
+    background-color: burlywood;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.container .top .tickets{
+    width: 23%;
+    height: 80%;
+    background-color: royalblue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.container .top .encyclopedias{
+    width: 23%;
+    height: 80%;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.container .top .messages{
+    width: 23%;
+    height: 80%;
+    background-color: greenyellow;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
