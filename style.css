@@ -41,12 +41,55 @@ h4{
 h5{
     font-size: smaller;
 }
-.right-side .message{
-    width: 50%;
-    height: 6%;
+.right-side .down{
+    width: 60%;
+    height: 40%;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.right-side .down-left{
+    width: 80%;
+    height: 100%;
+    background-color: chartreuse;
+}
+.right-side .add-icon{
+    width: 20%;
+    height: 12.5%;
+    display: flex;
+    align-items: center;
+}
+
+.right-side .add-notification{
+    width: 100%;
+    height: 12.5%;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.right-side .badge{
+    font-size: 10px;
+    width: 15px;
+    height: 12px;
+    border-radius: 30%;
+    background-color: red;
+    color: white;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
+
 .container{
     width: 85%;
     background-color:rgba(241, 236, 236);
@@ -198,6 +241,27 @@ p{
     direction: rtl;
 
 }
+.container .down .right .down .add-notification{
+    width: 20%;
+    height: 60%;
+    background-color: red;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.container .down .right .down .badge{
+    font-size: 10px;
+    width: 18px;
+    height: 12px;
+    border-radius: 30%;
+    background-color: rgb(190, 188, 188);
+    color: rgb(87, 87, 87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container .down .left{
     width: 40%;
     height: 97%;
@@ -224,9 +288,17 @@ p{
     align-items: flex-end;
     background-color: green;
 }
-.container .down .left .top .head button{
+/* .container .down .left .top .head button{
     width: 30%;
     height: 60%;
+} */
+.container .down .left .top .title{
+    width: 20%;
+    height: 60%;
+    background-color: rgb(120, 100, 228);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .container .down .left .down{
     width: 97%;
@@ -247,7 +319,15 @@ p{
     align-items: flex-end;
     background-color: green;
 }
-.container .down .left .down .head button{
+/* .container .down .left .down .head button{
     width: 30%;
     height: 60%;
+} */
+.container .down .left .down .title{
+    width: 20%;
+    height: 60%;
+    background-color: rgb(120, 100, 228);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
