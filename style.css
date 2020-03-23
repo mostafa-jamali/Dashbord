@@ -71,7 +71,9 @@ body{
 .right-side .user .user-name .work{
     width: 100%;
     height: 50%;
+    font-size: 10px;
     font-weight: bold;
+    color: rgb(130, 130, 130);
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -85,6 +87,7 @@ body{
 .right-side .user-info .icon .down{
     width: 100%;
     height: 50%;
+    color: rgb(130, 130, 130);
     display: flex;
     align-items: center;
 }
@@ -176,12 +179,15 @@ body{
 .kard1 .right .top{
     width: 100%;
     height: 35%;
+    font-size: 12px;
+    color: rgb(130, 130, 130);
     display: flex;
     align-items: flex-start;
 }
 .kard1 .right .mid{
     width: 100%;
     height: 30%;
+    font-size: 20px;
     display: flex;
     align-items: center;
 }
@@ -196,6 +202,8 @@ body{
 .kard1 .right .down .right-down{
     width: 13%;
     height: 100%;
+    color: rgb(100, 100, 250);
+    font-size: 14px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -203,6 +211,8 @@ body{
 .kard1 .right .down .left-down{
     width: 87%;
     height: 100%;
+    font-size: 10px;
+    color: rgb(130, 130, 130);
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -241,12 +251,15 @@ body{
 .kard2 .right .top{
     width: 100%;
     height: 35%;
+    font-size: 12px;
+    color: rgb(130, 130, 130);
     display: flex;
     align-items: flex-start;
 }
 .kard2 .right .mid{
     width: 100%;
     height: 30%;
+    font-size: 20px;
     display: flex;
     align-items: center;
 }
@@ -260,6 +273,8 @@ body{
 .kard2 .right .down .right-down{
     width: 15%;
     height: 100%;
+    color: rgb(100, 100, 250);
+    font-size: 14px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -267,6 +282,8 @@ body{
 .kard2 .right .down .left-down{
     width: 85%;
     height: 100%;
+    font-size: 10px;
+    color: rgb(130, 130, 130);
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -305,12 +322,15 @@ body{
 .kard3 .right .top{
     width: 100%;
     height: 35%;
+    font-size: 12px;
+    color: rgb(130, 130, 130);
     display: flex;
     align-items: flex-start;
 }
 .kard3 .right .mid{
     width: 100%;
     height: 30%;
+    font-size: 20px;
     display: flex;
     align-items: center;
 }
@@ -324,6 +344,7 @@ body{
 .kard3 .right .down .right-down{
     width: 5%;
     height: 100%;
+    color: rgb(40, 220, 50);
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -331,6 +352,8 @@ body{
 .kard3 .right .down .mid{
     width: 20%;
     height: 100%;
+    color: rgb(40, 220, 50);
+    font-size: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -338,6 +361,8 @@ body{
 .kard3 .right .down .left-down{
     width: 75%;
     height: 100%;
+    font-size: 10px;
+    color: rgb(130, 130, 130);
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -376,12 +401,15 @@ body{
 .kard4 .right .right2 .top{
     width: 100%;
     height: 35%;
+    font-size: 12px;
+    color: rgb(130, 130, 130);
     display: flex;
     align-items: flex-start;
 }
 .kard4 .right .right2 .mid{
     width: 100%;
     height: 30%;
+    font-size: 20px;
     display: flex;
     align-items: center;
 }
@@ -395,6 +423,7 @@ body{
 .kard4 .right .down .right-down{
     width: 5%;
     height: 100%;
+    color: red;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -402,6 +431,8 @@ body{
 .kard4 .right .down .mid{
     width: 20%;
     height: 100%;
+    color: red;
+    font-size: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -409,6 +440,8 @@ body{
 .kard4 .right .down .left-down{
     width: 75%;
     height: 100%;
+    font-size: 10px;
+    color: rgb(130, 130, 130);
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -436,6 +469,7 @@ body{
 .container .mid .mid-right i{
     margin-top: 20px;
     margin-left: 20px;
+    color: rgb(220, 220, 220);
 }
 .container .mid .mid-left{
     width: 30vw;
@@ -472,6 +506,9 @@ body{
     color: rgb(100, 100, 250);
     margin: 0px;
 }
+b{
+    font-weight: bolder;
+}
 .right-side .time .day{
     font-size: 11px;
     color: rgb(100, 100, 250);
@@ -481,12 +518,12 @@ body{
 .right-side .user .user-info .user-name .name p{
     font-size: 12px;
     font-weight: bold;
-    color: rgb(100, 100, 100);
+    color: rgb(80, 80, 80);
 }
 .right-side .options .add-icon{
     width: 20%;
     height: 12.5%;
-    color: rgb(200, 200, 200);
+    color: rgb(130, 130, 130);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -502,7 +539,7 @@ a:link {
     font-size: 12px;
 }
 a:visited{
-    color: rgb(200, 200, 200);
+    color: rgb(130, 130, 130);
 }
 .right-side .options .titles .add-title{
     width: 100%;
@@ -515,20 +552,21 @@ a:visited{
 .right-side .options .notifications .add-not{
     width: 100%;
     height: 12.5%;
-    color: rgb(200, 200, 200);
+    color: rgb(130, 130, 130);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .right-side .options .notifications .add-not .badge{
-    font-size: 8px;
-    width: 12px;
-    height: 10px;
+    font-size: 9px;
+    width: 13px;
+    height: 12px;
     border-radius: 40%;
     background-color: rgb(255, 65, 65);
     color: white;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .right-side .user .picture .image{
     border-radius: 50%;
@@ -536,14 +574,17 @@ a:visited{
     border-color: gray;
     border-width: 1px;
 }
+
 .container .mid .mid-left .title-right{
     width: 28%;
     height: 17%;
     margin-top: 10px;
-    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.container .mid .mid-left .blackcolor{
+    color: black;
 }
 .container .mid .mid-left .title-left{
     width: 30%;
@@ -610,15 +651,20 @@ a:visited{
     align-items: center;
     flex-direction: row-reverse;
 }
+
 .container .down .down-right .titles .badge{
     font-size: 8px;
     width: 15px;
-    height: 10px;
+    height: 12px;
     border-radius: 40%;
     background-color: rgb(200, 200, 200);
-    color: rgb(150, 150, 150);
+    color: rgb(100, 100, 100);
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.container .down .down-right .titles .blackcolor{
+    color: black;
 }
 .container .down .down-left .top .title{
     width: 28%;
@@ -627,6 +673,9 @@ a:visited{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.container .down .down-left .top .blackcolor{
+    color: black;
 }
 .container .down .down-left .top{
     width: 100%;
