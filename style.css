@@ -222,10 +222,17 @@ body{
     height: 100%;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    transition: width 1s;
+    transform-origin: left;
     display: flex;
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(to bottom right, rgb(130, 95, 230), rgb(145, 165, 250));
+}
+.kard1 .left:hover{
+    transform: scaleX(2);
+    width: 80%;
+    border-radius: 2.5px;
 }
 .kard1 img {
     max-width: 60%;
@@ -293,10 +300,17 @@ body{
     height: 100%;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    transition: width 1s;
+    transform-origin: left;
     display: flex;
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(to bottom right, rgb(250, 186, 50), rgb(248, 202, 101));
+}
+.kard2 .left:hover{
+    transform: scaleX(2);
+    width: 80%;
+    border-radius: 2.5px;
 }
 .kard2 img {
     max-width: 60%;
@@ -372,10 +386,17 @@ body{
     height: 100%;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    transition: width 1s;
+    transform-origin: left;
     display: flex;
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(to bottom right, rgb(245, 70, 125), rgb(245, 125, 140));
+}
+.kard3 .left:hover{
+    transform: scaleX(2);
+    width: 80%;
+    border-radius: 2.5px;
 }
 .kard3 img {
     max-width: 60%;
@@ -451,10 +472,17 @@ body{
     height: 100%;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    transition: width 1s;
+    transform-origin: left;
     display: flex;
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(to bottom right, rgb(40, 140, 255), rgb(145, 210, 250));
+}
+.kard4 .left:hover{
+    transform: scaleX(2);
+    width: 80%;
+    border-radius: 2.5px;
 }
 .kard4 img {
     max-width: 45%;
