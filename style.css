@@ -549,9 +549,9 @@ body{
     border-radius: 5px;
     background-color: snow;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     align-content: flex-start;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .container .down .down-right{
     width: calc((85vw - 30px) - 30vw - 30px);
@@ -646,7 +646,13 @@ a:visited{
     border-color: gray;
     border-width: 1px;
 }
-
+.container .mid .mid-left .chart-top{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
 .container .mid .mid-left .title-right{
     width: 28%;
     height: 90px;
@@ -989,4 +995,124 @@ tr .th2{
     font-size: 10px;
     margin-top: 5px;
     color: rgb(150, 150, 150);
+}
+.container .mid .mid-left .chart{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .mid .mid-left  .chart ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+.container .mid .mid-left  .chart .horizontal-list li {
+	float: left;
+}
+.container .mid .mid-left  .chart .block {
+	/* margin: 25px 25px 0 0; */
+	/* background: #394264; */
+	border-radius: 5px;
+    /* float: left; */
+    width: 400px;
+    /* overflow: hidden; */
+}
+.container .mid .mid-left  .chart .line-chart {
+	height: 200px;
+	/* background: #11a8ab; */
+}
+.container .mid .mid-left  .chart .time-lenght {
+	padding-bottom: 10px;
+	padding-left: 50px;
+    /* overflow: hidden; */
+}
+.container .mid .mid-left  .chart .time-lenght-btn {
+	display: block;
+    width: 70px;
+    color: rgb(200, 200, 200);
+    line-height: 32px;
+	/* background: #50597b; */
+	/* border-radius: 5px; */
+	font-size: 12px;
+	text-align: center;
+	/* margin-right: 5px; */
+}
+.container .mid .mid-left  .chart .time-lenght-btn b{
+    font-size: 30px;
+}
+
+.container .mid .mid-left  .chart .grafico {
+  /* padding: 2rem 1rem 1rem; */
+    width: 100%;
+    height: 100%;
+    position: relative;
+    color: rgb(250, 140, 35);
+    font-size: 80%;
+}
+.container .mid .mid-left  .chart .grafico span {
+    display: block;
+    position: absolute;
+    bottom: 5rem;
+    left: 2rem;
+    height: 0;
+    border-top: 2px solid;
+    transform-origin: left center;
+    box-shadow: 0px 5px 10px rgb(250, 140, 35);
+}
+.container .mid .mid-left  .chart .grafico span > span {
+  left: 100%; bottom: 0;
+}
+[data-valor='25'] {width: 55px; transform: rotate(-15deg);}
+[data-valor='8'] {width: 70px; transform: rotate(-20deg);}
+[data-valor='13'] {width: 90px; transform: rotate(87deg);}
+[data-valor='5'] {width: 120px; transform: rotate(-115deg);}
+[data-valor='23'] {width: 120px; transform: rotate(125deg);}
+[data-valor='12'] {width: 60px; transform: rotate(-80deg);}
+[data-valor='15'] {width: 45px; transform: rotate(-45deg);}
+
+[data-valor]:before {
+    content: '';
+    position: absolute;
+    display: block;
+    right: -4px;
+    bottom: -3px;
+    padding: 4px;
+    background: rgb(250, 140, 35);
+    border-radius: 50%;
+}
+
+[class^='eje-'] {
+    position: absolute;
+    left: 0;
+    bottom: 0rem;
+    color: rgb(200, 200, 200);
+    width: 100%;
+    padding: 1rem 1rem 0 2rem;
+    height: 90%;
+}
+.container .mid .mid-left  .chart .eje-x {
+    height: 2rem;
+}
+.container .mid .mid-left  .chart .eje-y li {
+    height: 15%;
+    border-top: 1px solid #777;
+}
+[data-ejeY]:before {
+    content: attr(data-ejeY);
+    display: inline-block;
+    width: 2rem;
+    text-align: right;
+    line-height: 0;
+    position: relative;
+    left: -2.5rem;
+    top: -.5rem;
+} 
+.container .mid .mid-left  .chart .eje-x li {
+    width: 14%;
+    float: left;
+    text-align: center;
 }
