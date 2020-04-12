@@ -125,6 +125,18 @@
             </div>
         </did>
         <div class="left-side">
+            <div class="search-bar" id="search-bar">
+                <div class="search">
+                    <input class="user" type="text" placeholder="عبارت موردنظر خود را جستجو کنید">
+                    <i class="fa fa-search fa-flip-horizontal" aria-hidden="true"></i>
+                </div>
+                <div class="notif">
+                    <i class="fa fa-bell" aria-hidden="true"></i>
+                    <span class="budge">۸</span>
+                    <i class="fas fa-comment-alt"></i>
+                    <span class="budge">۲</span>
+                </div>
+            </div>
             <div class="container">
                 <div class="top">
                     <div class="kard1">
@@ -274,7 +286,7 @@
                                 <ul class="time-lenght horizontal-list">
                                     <li><a class="time-lenght-btn" href="#14">خبر <b>.</b></a></li>
                                     <li><a class="time-lenght-btn" href="#15">دانشنامه <b>.</b></a></li>
-                                    <li><a class="time-lenght-btn" href="#16">تیکت <b>.</b></a></li>
+                                    <li><a class="time-lenght-btn color" href="#16">تیکت <b>.</b></a></li>
                                 </ul>
                             </div> 
                         </div> 
@@ -282,31 +294,138 @@
                 </div>
                 <div class="down">
                     <div class="down-right">
-                        <div class="titles">
-                            <div class="title1">
-                                <a href="#" class="underline blackcolor"><span>تیکت‌های ستاره‌دار</span></a>
-                                <span class="badge blackcolor">۱۳۰</span>
+                        <div class="top-div">
+                            <div class="titles">
+                                <div class="title1">
+                                    <a href="#" class="underline blackcolor"><span>تیکت‌های ستاره‌دار</span></a>
+                                    <span class="badge blackcolor">۱۳۰</span>
+                                </div>
+                                <div class="title2">
+                                    <a href="#" ><span>باز (همراه با پاسخ)</span></a>
+                                    <span class="badge">۵۲</span>
+                                </div>
+                                <div class="title3">
+                                    <a href="#" ><span>باز (بدون پاسخ)</span></a>
+                                    <span class="badge">۲۹</span>
+                                </div>
+                                <div class="title4">
+                                    <a href="#" ><span>بسته</span></a>
+                                    <span class="badge">۲۸۰</span>
+                                </div>
                             </div>
-                            <div class="title2">
-                                <a href="#" ><span>باز (همراه با پاسخ)</span></a>
-                                <span class="badge">۵۲</span>
-                            </div>
-                            <div class="title3">
-                                <a href="#" ><span>باز (بدون پاسخ)</span></a>
-                                <span class="badge">۲۹</span>
-                            </div>
-                            <div class="title4">
-                                <a href="#" ><span>بسته</span></a>
-                                <span class="badge">۲۸۰</span>
+                            <div class="title-left">
+                                <a href="#" class="border"><i class="fas fa-sort-down fa-xs"></i>ماه گذشته</a>
                             </div>
                         </div>
-                        <div class="title-left">
-                            <a href="#" class="border"><i class="fas fa-sort-down fa-xs"></i>ماه گذشته</a>
-                        </div>
-                            
+                         <div>
+                            <table>
+                                <tr>
+                                    <th class="th1">آخرین پاسخ دهنده</th>
+                                    <th class="th1">الویت</th>
+                                    <th class="th2">ایجاد شده توسط</th>
+                                    <th class="padding">عنوان</th>
+                                </tr>
+                                <tr>
+                                    <td>عمومی</td>
+                                    <td>عمومی</td>
+                                    <td>
+                                        <div class="row-img">
+                                            <div>
+                                                <p>مصطفی حسینی، ۳ روز پیش</p>
+                                            </div>
+                                            <div>
+                                                <img src="./Assets/img/aks.jpg" alt="apple">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <p class="p1">فیلم کلاس برنامه‌نویسی امن در وب<p>
+                                        <p class="p2">سند، مدیریت، سازمانی <i class="fas fa-pen-nib"></i></i></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>ارائه فنی</td>
+                                    <td>ارائه فنی</td>
+                                    <td> 
+                                        <div class="row-img">
+                                            <div>
+                                                <p> معین قاسمی، ۱۰ روز پیش</p>
+                                            </div>
+                                            <div>
+                                                <img src="./Assets/img/aks.jpg" alt="apple">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">راهنما و دانشنامه استفاده از سامانه</td>
+                                </tr>
+                                <tr>
+                                    <td>متوسط</td>
+                                    <td>متوسط</td>
+                                    <td> 
+                                        <div class="row-img">
+                                            <div>
+                                                <p> محمد خدایی، ۱۸ روز پیش</p>
+                                            </div>
+                                            <div>
+                                                <img src="./Assets/img/aks.jpg" alt="apple">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">سفر اربعین</td>
+                                </tr>
+                                <tr>
+                                    <td>... ارائه فنی</td>
+                                    <td>... ارائه فنی</td>
+                                    <td> 
+                                        <div class="row-img">
+                                            <div>
+                                                <p> محمد حسین سعیدی، ۲۰ روز پیش</p>
+                                            </div>
+                                            <div>
+                                                <img src="./Assets/img/aks.jpg" alt="apple">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">پیاده‌سازی یک بلاکچین ساده</td>
+                                </tr>
+                                <tr>
+                                    <td>متوسط</td>
+                                    <td>متوسط</td>
+                                    <td> 
+                                        <div class="row-img">
+                                            <div>
+                                                <p> مهران عصاری، ۱ ماه پیش</p>
+                                            </div>
+                                            <div>
+                                                <img src="./Assets/img/aks.jpg" alt="apple">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <p class="p1">Jupyter NeteBook معرفی<p>
+                                        <p class="p2">سند، مدیریت، سازمانی<i class="fas fa-pen-nib"></i></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>عمومی</td>
+                                    <td>عمومی</td>
+                                    <td> 
+                                        <div class="row-img">
+                                            <div>
+                                                <p> علیرضا ریاحی، ۲ ماه پیش</p>
+                                            </div>
+                                            <div>
+                                                <img src="./Assets/img/aks.jpg" alt="apple">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">...راه‌اندازی سامانه تعاملی داخلی دپارتمان سرور</td>
+                                </tr>
+                            </table> 
+                         </div>   
                     </div>
                     <div class="down-left">
-                        <div class="top">
+                        <div class="top-div">
                             <div class="title">
                                 <a href="#"><span class="underline blackcolor">صندوق پیام</span></a>
                             </div>
@@ -601,6 +720,6 @@
                 </div>
             </div>
         </div>       
-        <script src="" async defer></script>
+        <script src="index.js" async defer></script>
     </body>
 </html>
