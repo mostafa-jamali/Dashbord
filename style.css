@@ -612,7 +612,7 @@ a:link {
     font-size: 12px;
 }
 a:visited{
-    color: rgb(130, 130, 130) !important;
+    color: rgb(130, 130, 130);
 }
 .right-side .options .titles .add-title{
     width: 100%;
